@@ -1,0 +1,6 @@
+function printObject (obj) {
+    for (let prop in obj) {
+        // console.log(`let raven = ${prop}`)
+        console.log(`Информация об объекте: ${prop} - ${obj[prop]}`);
+    }
+}
