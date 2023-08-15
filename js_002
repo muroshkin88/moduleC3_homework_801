@@ -1,0 +1,4 @@
+function checkPropInObj (str,obj) {
+    return (str in obj);
+}
+console.log(checkPropInObj('city',student)) //true
